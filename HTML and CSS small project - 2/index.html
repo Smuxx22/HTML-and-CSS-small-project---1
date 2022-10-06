@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ivan-webpage4</title>
+    <!-- https://www.york.ac.uk/teaching/cws/wws/webpage4.html -->
+</head>
+
+<body>
+
+    <img src="https://www.york.ac.uk/teaching/cws/wws/textasimage.gif" alt="Naslovna images" class="center">
+
+    <br />
+
+    <p>
+        The third characteristic of web page writing is the blurring of boundaries between words and images. The
+        technology of the web encourages this: in work devised for the screen it is nearly as easy, and as inexpensive,
+        to insert an image instead of written text. For instance, the title of this page - 'IMAGES' - is a simple image
+        prepared in Photoshop (view 'SOURCE' to check this out).
+    </p>
+    <p>
+        This lesson introduces you to working with images - a huge topic in itself. I offer some suggestions for
+        obtaining images, show you how to insert an image in a web page, and how to make a hyperlink from that image.
+    </p>
+    <h4>
+        OBTAINING IMAGES
+    </h4>
+    <p>
+        There are three main ways to get hold of images for use in web pages.
+    </p>
+    <ol>
+        <li>Use an image from the clip art packages offered with systems such as Microsoft Works.</li>
+        <li>Take images from the web. This is remarkably easy:</li>
+        <ul>
+            <li>If you see an image you like on a web page, move your mouse over the image.</li>
+            <li>Right click your mouse, and select 'Save picture as'<br>
+                .(Try this with the title image at the top of the page).</li>
+            <li>Save the file: it is best if you create a New Folder called something like IMAGES, and place this folder
+                in your WEBPAGES folder. The saving is very similar to the process involved in saving a Word or
+                WordPerfect file; the main difference is that you will notice the file is called 'something.jpg' (or
+                jpeg) or 'something.gif'. You can change the name (the 'something' of the file designation) but you must
+                retain the format extension (ie jpg/jpeg or gif).</br></br>
+                COPYRIGHT: Though few people are likely to be concerned about you taking an image for personal use, you
+                must always respect the artists right over their work, as you would for work offered in books and
+                journals. For master's essays, which are not published work, it is acceptable to use images without
+                asking for permission SO LONG AS YOU SUPPLY A FULL REFERENCE. For Master's dissertations, and especially
+                for PhD work, the area is more complex and the issues of copyright are still being resolved. If in
+                doubt, write to the web designer and ask for permission.</li>
+        </ul>
+        <li>Create your own.</li>
+        <ul>
+            <li>Use any image-manipultaing software.<br>This area of graphics manipulation is obviously a huge area in
+                its own right, and beyond the scope of the course. However, due in part to the popularity of digital
+                photography basic image manipulation software is widely available and easy to use: if you have computer
+                you might well have something bundled in with your computer software. Simple programmes can obtained
+                most months from the 'free' CDs on computer magazines (.Net is one of the best, but check out the others
+                too). You can also download many free programmes - try finding what you need though a GOOGLE search. Of
+                course, you can only use this new material if you have your own computer, as you cannot install new
+                programmes on to the University system.</li>
+            <li>Scanners can be very useful. Scan in your image at no more than 150 dpi (dots per inch), though I use 70
+                dpi for preference. If you do it denser than this the image will take a l-o-n-g t-i-m-e t-o
+                d-o-w-n-l-o-a-d when you open your webpage. You can use photos, published images, and bits and pieces
+                (lace material, crumpled paper, 3D objects ...)
+                Don't forget to save the image as a gif or jpg file (ie save it in that formant and give it the
+                appropraite suffix).</li>
+        </ul>
+    </ol>
+    <br>
+    <h4>INSERTING IMAGES</h4>
+    <p>
+        The tag used is:
+    </p>
+    <p>
+        < IMG SRC=image.jpg> or < IMG SRC=image.gif>
+    </p>
+    <p>
+        <b>Making your inserted image look good</b>
+    </p>
+    <p>
+        You can place your image "left" or "right" on the page by using a modifying tag like so:
+    </p>
+    <p>
+        < IMG SRC=image.jpg ALIGN="right">
+    </p>
+    <p>
+        When an image is aligned "left" or "right" written text will wrap around the image. You can add space between
+        words and image by adding the attributes VSPACE (for vertical space)and HSPACE (for horizontal!)
+    </p>
+    <p>
+        < IMG SRC=image.jpg ALIGN="right" VSPACE="5" HSPACE="2">
+    </p>
+    </br></br></br></br>
+    <h4>
+        MAKING LINKS FROM IMAGES
+    </h4>
+    <a href="http://www.york.ac.uk/inst/cws/ ">
+        <img src="https://www.york.ac.uk/teaching/cws/wws/toofar.gif" alt="Centre for Women's Studies" align="left"></a>
+    <p>
+        This is done in exactly the same way as linking text files, by using the < A> tag.
+    </p>
+    <p>
+        The basic code for inserting the image to the left is:
+    </p>
+    <p>
+        < A HREF="http://www.york.ac.uk/inst/cws/ "><br>
+            < IMG SRC="toofar.gif" ALIGN="left">
+                < /A>
+    </p>
+    <p>
+        the url after < A HREF> is the name of the destination site (in this case the CWS home page)
+    </p>
+    <p>
+        'too far.gif' is the name I gave to the linking image - the cartoon.
+    </p>
+    <p>
+        If I had wanted to remove the default border from the cartoon linking image I could have added "BORDER="0"
+        inside the < A> tag.
+    </p>
+    <br>
+    <h4>
+        EXERCISE
+    </h4>
+    <ul>
+        <li>Surf the web and pick up a few images as instructed above. Save them in your IMAGES folder.</li>
+        <li>Insert an image in one of your web pages with some text. Move the image around: Align it 'left' or 'right'
+            and look to see what happens. Try adjusting the 'V' (vertical) and 'H'(horizontal) properties. Add and
+            remove the image border.</li>
+        <li>When you are happy with the format of the page, make a link from the image to another web page.</li>
+    </ul>
+    <p>
+        links:<br>
+        lesson one: <a href="https://www.york.ac.uk/teaching/cws/wws/webpage1.html">A Simple Web
+            Page</a> &emsp; &emsp; lesson two:
+        <a href="https://www.york.ac.uk/teaching/cws/wws/webpage2.html">Simple Formatting</a>
+        <br>
+        lesson three:
+        <a href="https://www.york.ac.uk/teaching/cws/wws/webpage3.html">Linking Web Texts</a>
+        <br><a href="https://www.york.ac.uk/teaching/cws/wws/col3.html">back to wws index</a>
+    </p>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

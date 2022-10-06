@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+    width: 75%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: #569ed0;
+}
+
+#left_heading {
+    text-align: left;
+}
